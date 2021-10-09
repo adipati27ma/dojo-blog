@@ -30,7 +30,7 @@ const useFetch = (url) => {
             setError(err.message);
           }
         });
-    }, 1000);
+    }, 300);
 
     // Cleanup Function.- (run immediately when the component unmounted)
     // prevent uncompleted fetch on unmounted components---
