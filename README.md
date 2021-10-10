@@ -73,4 +73,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Run JSON Server for dojo-blog (on localhost)
 
+Just simply run this command below on terminal (inside the root folder of this project) :<br>
 `npx json-server --watch data/db.json --port 8000`
